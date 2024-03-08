@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage[fleqn]{mathtools}
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[a4paper, total={6.5in, 9in}]{geometry}
+\DeclareMathSizes{10}{10}{9}{7}
+\hyphenpenalty=10000
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=Mahogany,
+	filecolor=magenta,
+	urlcolor=cyan,
+	pdftitle={alexrandomkat TOS},
+}
+
+\newcommand{\hsp}[1][5]{\hspace{0.#1 cm}}
+\newcommand{\hcm}[1][1]{\hspace{#1 cm}}
+\newcommand{\vcs}{\vphantom{$\dspt \frac{a^-}{b}$}}
+\newcommand{\hcs}{\hphantom{aaaaa}}
+
+\newcommand{\lt}{\left}
+\newcommand{\rt}{\right}
+
+\newcommand{\ch}[1]{\text{#1}}
+\newcommand{\tdeg}{$^{\circ}$}
+\newcommand{\mdeg}{^{\circ}}
+\newcommand{\subs[1]}{\subsubsection{{\normalfont #1}}}
+
+\newcommand{\dspt}{\displaystyle} 
+
+\renewcommand{\familydefault}{\sfdefault}
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\vcs\hcs\hcs\textbf{Name(s)}\hcs\hcs & \textbf{Price (USD)} & \hcs\textbf{Comm Desc}\hcs & \textbf{Payment?} & \textbf{Comm Status}\\\hline
+		
+		\vcs Example & 150 & fullbody w/ bg & half & rough sketch\\\hline
+		
+	\end{tabular}
+\end{center}
+
+\end{document}
